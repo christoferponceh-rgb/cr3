@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tienda Gamer</title>
+    <script>
+        const path = window.location.pathname;
+        const baseRepo = '/cr3';
+        
+        if (!path.startsWith(baseRepo)) {
+            window.location.pathname = baseRepo + path;
+        }
+    </script>
+</head>
+<body>
+    Redirigiendo...
+</body>
+</html>
